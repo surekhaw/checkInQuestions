@@ -87,11 +87,11 @@ var checkInQuestions = [
 document.getElementById("btn").addEventListener("click", function() {
     document.getElementById("btn").innerHTML = "New Question"; // change button from "Display Question" to "New Question"
     var checkInIdx = Math.floor(Math.random() * checkInQuestions.length); // random index number from checkInQuestions array
-    document.getElementById("quesDisplay").innerHTML = checkInQuestions[checkInIdx]; // display random question
-    checkInQuestions.splice(index, 1); // remove displayed question from array so it doens't repeat
-    // Stop when array is empty
-    if(checkInQuestions.length === 0) {
-        document.getElementById("btn").removeEventListener("click", displayNewQues());
+    if(checkInQuestions.length > 0) {
+        document.getElementById("quesDisplay").innerHTML = checkInQuestions[checkInIdx]; // display random question
+        checkInQuestions.splice(checkInIdx, 1); // remove displayed question from array so it doesn't repeat
+    } else {// Stop when array is empty
+        document.getElementById("btn").style.display = "none";
         document.getElementById("quesDisplay").innerHTML = "All currently available check-in questions have been displayed."
     }
 });
