@@ -9,5 +9,5 @@ Responsiveness:
 The project uses CSS grid and is responsive so that it will display uniformly on any browser width
 
 
-![Screenshot](images/checkInSample.png?raw=true "CheckInSample")
+![Screenshot](public/images/checkInSample.png?raw=true "CheckInSample")
 
