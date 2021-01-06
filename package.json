@@ -1,0 +1,24 @@
+{
+  "name": "checkinquestions",
+  "version": "1.0.0",
+  "description": "Random check-in question generator",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/surekhaw/checkInQuestions.git"
+  },
+  "author": "Surekha Weinberg",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/surekhaw/checkInQuestions/issues"
+  },
+  "homepage": "https://github.com/surekhaw/checkInQuestions#readme",
+  "dependencies": {
+    "express": "^4.17.1",
+    "nedb": "^1.8.0",
+    "nodemon": "^2.0.6"
+  }
+}
