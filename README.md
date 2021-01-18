@@ -8,6 +8,10 @@ Click on the "Display Question" button to display the first check-in question. I
 Responsiveness:
 The project uses CSS grid and is responsive so that it will display uniformly on any browser width
 
+Deployment:
+The Random Check-In Question Generator App is now deployed on Heroku!
+Go to: https://checkin-questions.herokuapp.com
+
 
 ![Screenshot](public/images/checkInSample.png?raw=true "CheckInSample")
 
